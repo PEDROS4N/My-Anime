@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'font';
+    src: url(../fonts/mangat.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'font';
+    color: white;
+}
+
+.fundo{
+  height: 100vh;
+  background-image: url(/assets/fundo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.titulo{
+    font-size: 20px;
+    text-align: center;
+    padding: 4vh;
+}
+
+.introducao{
+    text-align: center;
+    width: 100%; 
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+.container{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%)
+}
+
+.btn{
+    cursor: pointer;
+    background-color: black;
+    font-size: 25px;
+    border: none;
+    padding: 20px;
+    margin: 12x;
+    width: 250px;
+    border-radius: 15px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(11, 16, 78, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
